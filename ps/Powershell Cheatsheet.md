@@ -90,8 +90,6 @@ Comparison Operators for strings, int, array and other types
 
 ![See the source image](assets/images/powershell-comparison-operators.png)
 
-
-
 #### Logical Operators
 
 ![powershell-logical-operators](assets/images/powershell-logical-operators.png)
@@ -99,7 +97,6 @@ Comparison Operators for strings, int, array and other types
 #### Redirection Operators
 
 There are various streams that output can be redirected to:
-
 
 | Stream | Description        |
 | :----- | :----------------- |
@@ -135,18 +132,12 @@ The **-Split** operator is used in PowerShell to divide the one or more strings 
 <String> -Split {<ScriptBlock>} [,<Max-substrings>] 
 ```
 
-
-
-
-
-
-
 ## One Liners
 
 ### Help
 
-| Description                                              | Action                                           | Command                                |
-| :------------------------------------------------------- | ------------------------------------------------ | :------------------------------------- |
+| Description | Action | Command |
+| :--- | ---| :---|
 | Basic help for x                                         | Get-Help cmd                                     | Get-Help Get-ChildItem                 |
 | Help in separate window                                  | Show-Command cmd                                 | Show-Command Get-ChildItem             |
 | Help for parameter y of cmdlet x                         | Get-Help cmd -parameter y                        | Get-Help Get-Date -param month         |
